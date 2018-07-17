@@ -4,7 +4,7 @@
   "description": "An example of how to setup prettier in a project",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm run format && git add .",
+    "precommit": "lint-staged",
     "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
   },
   "repository": {
